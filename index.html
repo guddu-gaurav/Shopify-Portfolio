@@ -415,7 +415,24 @@
             font-size: 0.9rem;
             font-weight: 600;
         }
+        .project-view{
+            width: fit-content;
+            background: var(--primary);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .project-view>a{
+            text-decoration: none;
+            color: white;
+        }
 
+.project-view:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(94, 53, 177, 0.5);
+    transition: all 0.3s ease-in-out;
+}
         .project-info {
             padding: 25px;
         }
@@ -903,6 +920,7 @@
                     <div class="project-info">
                         <h3>Aanchal Jaipur</h3>
                         <p>Premium women's ethnic & casual wear brand from Jaipur. Built from scratch with custom theme development and payment gateway integration.</p>
+                        <div class="project-view"><a href="https://aanchaljaipur.com">View Live</a></div>
                         <div class="project-stats">
                             <div class="stat">
                                 <div class="stat-value">37%</div>
@@ -927,6 +945,7 @@
                     <div class="project-info">
                         <h3>The T-Shirt Shop</h3>
                         <p>Custom t-shirt brand featuring a dynamic product builder and volume-based pricing. Integrated Printful and Shiprocket for seamless fulfillment.</p>
+                        <div class="project-view"><a href="https://thetshirtshop.in">View Live</a></div>
                         <div class="project-stats">
                             <div class="stat">
                                 <div class="stat-value">89%</div>
